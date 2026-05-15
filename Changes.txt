@@ -1,0 +1,10 @@
+So the changes being done to the project are noted in this file.
+Basically the issue with out first model was of top 30 models in the dataset
+The rest were ignored, but doe to the ignorance they were transferred in other
+so many of the known make models got ignores
+for that I rechanged the entire preprocessing to a state where each make was show
+and for each make their respective models as well, but what about the varian
+the variant was also sorted and shown
+now this caused string extraction issue as the name of the car was fully extracted except model in the variant section of dictionary
+so now the useless text written by people was also combined in it which was looking messy
+so now we are doing scrubbing to change that
